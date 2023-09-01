@@ -46,6 +46,10 @@
   @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
 }
 
+.hero__sub {
+  @apply text-primary-blue;
+}
+
 .hero__subtitle {
   @apply text-[27px] text-black-100 font-light mt-5;
 }
@@ -55,7 +59,7 @@
 }
 
 .hero__image {
-  @apply relative xl:w-full w-[90%] xl:h-full h-[590px] z-0;
+  @apply relative xl:w-full w-[90%] xl:h-full h-[790px] z-0;
 }
 
 .hero__image-overlay {
